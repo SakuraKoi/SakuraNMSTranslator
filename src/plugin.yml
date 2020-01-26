@@ -1,0 +1,5 @@
+name: SakuraNMSTranslator
+main: sakura.kooi.NMSTranslator.NMSTranslatorMain
+version: 1
+author: SakuraKoi
+api-version: 1.13

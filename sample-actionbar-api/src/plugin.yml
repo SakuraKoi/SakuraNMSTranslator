@@ -1,0 +1,6 @@
+name: SakuraActionbarAPI
+main: sakura.kooi.ActionbarAPI.ActionbarAPI
+version: 1
+author: SakuraKoi
+api-version: 1.13
+depend: ["SakuraNMSTranslator"]
