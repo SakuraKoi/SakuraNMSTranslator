@@ -3,7 +3,9 @@
 扔掉反射写NMS代码吧 / Write NMS code without Reflection
 
 (把LdcrUtils的ImplLoader模块拆出来开源了
+
 随便导入nms和craftbukkit用, 这个库使用asm帮你自动替换成服务端的对应版本
+
 有不兼容更改可以创建不同的实现类, 使用SupportedVersion注解后插件会自动识别并选择对应版本
 
 MinecraftVersion.java来自ProtocolLib
