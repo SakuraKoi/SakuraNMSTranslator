@@ -20,7 +20,10 @@ MinecraftVersion.java来自ProtocolLib
 
 创建对应版本实现: [MC_1.8-1.11](https://github.com/SakuraKoi/SakuraNMSTranslator/blob/master/sample-actionbar-api/src/sakura/kooi/ActionbarAPI/impl/ActionBar/NMS_v8_v11.java) [MC_1.12+](https://github.com/SakuraKoi/SakuraNMSTranslator/blob/master/sample-actionbar-api/src/sakura/kooi/ActionbarAPI/impl/ActionBar/NMS_v12_.java)
 
-实现类使用`@SupportedVersion`注解: `lowestVersion` (所支持的最低版本)和`highestVersion`(所支持的最高版本), `implVersion`是说明文字
+实现类需要放在 ImplLoader.forPlugin()时提供的包名.接口名 这个包下
+> eg: sakura.kooi.ActionbarAPI.impl(包名).ActionBar(接口名).NMS_v8_v11
+
+`@SupportedVersion`注解: `lowestVersion` (所支持的最低版本)和`highestVersion`(所支持的最高版本), `implVersion`是说明文字
 
 加载实现类
 > private static ActionBar impl;
